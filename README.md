@@ -124,8 +124,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
+This app was created as a case study to improve my knowlegde in JavaScript and ReactJS.
 <!--_For more examples, please refer to the [Documentation](https://example.com)_-->
 
 <!--<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
