@@ -1,0 +1,62 @@
+.wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-50%)
+}
+
+.searchBox{
+  width: 46rem;
+  height: 3.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.textArea {
+  width: 40rem;
+  height: 3.375rem;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  resize: none;
+  color: var(--gray-300);
+  font-size: 1rem;
+  line-height: 1.4;
+  padding: 0.875rem;
+}
+
+.createTask{
+  width: 6rem;
+  height: 3.25rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--blue-dark);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.createButton:hover{
+  background: var(--blue-light);
+}
+
+.createButton p {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .searchBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .textArea {
+    text-align: center;
+  }
+}
